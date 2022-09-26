@@ -1,0 +1,31 @@
+{
+  "auth": "",
+  "telegram": {
+    "token": "",
+    "chat_id": "",
+    "botName": ""
+  },
+  "projects": [
+    {
+      "project_id": "",
+      "repos_id": ""
+    }
+  ],
+  "notifications": {
+    "workingDays": 1
+  },
+  "apiBB": {
+    "base": "https://test.com/projects/:PROJECT_ID/repos/:REPOS_ID",
+    "prHandler": "https://test.com/pr-handler/1.0/projects/:PROJECT_ID/repos/:REPOS_ID/pull-requests/:PR_ID",
+    "pullRequests": "/pull-requests",
+    "activities": "/pull-requests/:PR_ID/activities",
+    "labels": "/labels",
+    "labelsState": "/labels/state",
+    "buildSummaries": "https://test.comprojects/:PROJECT_ID/repos/:REPOS_ID/pull-requests/:PR_ID/build-summaries"
+  },
+  "apiTG": "https://api.telegram.org/bot",
+  "users": {
+    "userID": "tgID"
+  },
+  "teams": []
+}
